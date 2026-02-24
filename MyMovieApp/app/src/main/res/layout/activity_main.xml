@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#697AD7"
+    android:foreground="@drawable/florey_tf_retro_web1_1800x1800"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="31dp"
+        android:foregroundTint="#F6F6F6"
+        android:text="Transformers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#7A1C1C"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1986"
+        android:textColor="#5F36AF"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
